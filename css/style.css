@@ -4,3 +4,52 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+
+/* Generics */
+body{
+    font-family: 'Montserrat', 'Helvetica Neue' sans-serif;
+}
+
+
+img{
+    width:100%;
+    height: auto;
+    display: block;
+}
+
+
+
+/* layout*/
+
+
+
+main{
+   display: flex;
+}
+
+footer{
+    height: 70px;
+    background-color: black;
+}
+
+
+.sidebar{
+    width: 200px;
+    height: calc(100vh - 70px);
+    background-color: aqua;
+}
+
+.cont-main{
+    height: calc(100vh - 70px);
+    width: calc(100vw - 200px);
+    background-color: yellowgreen;
+    overflow: auto;
+}
+
+
+.navbar{
+    height: 70px;
+    background-color: red;
+}
