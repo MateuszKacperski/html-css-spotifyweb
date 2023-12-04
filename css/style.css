@@ -12,6 +12,9 @@ body{
     font-family: 'Montserrat', 'Helvetica Neue' sans-serif;
 }
 
+section{
+    padding:10px 20px;
+}
 
 img{
     width:100%;
@@ -19,12 +22,38 @@ img{
     display: block;
 }
 
+h1{
+    color:#FFFFFF;
+    margin: 5px;
+}
+
+h2{
+    color:#FFFFFF;
+    margin: 5px;
+    font-size: 15px;
+    text-align: center;
+}
+
+h3{
+    color:#75787C;
+    margin: 5px;
+    font-size: 10px;
+    text-align: center;
+}
+
 
 
 /* Utils */ 
 
+ul{
+    list-style: none;
+}
 
 
+li{
+    color: #75787C;
+    margin: 5px;
+}
 
 /* layout*/
 
@@ -80,3 +109,34 @@ header{
     border: 1px solid #EEEEEE;
 }
 
+/* Main*/
+
+
+
+/*section nav */
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+
+/* section recenty played */
+
+
+.row {
+	display: flex;
+	margin: 0 -1rem;
+	flex-wrap: wrap;
+}
+.col {
+	padding: 1rem;
+	flex-basis: calc(100% / 2);
+}
+
+.card-image {
+	height: 100%;
+	width: auto;
+}
