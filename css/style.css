@@ -31,14 +31,13 @@ img{
 
 
 .top-content{
-    height: calc(100vh - 70px);
+    height: calc(100vh - 80px);
     overflow: auto;
-   display: flex;
-   background-color: pink;
+    display: flex;
 }
 
 footer{
-    height: 70px;
+    height: 80px;
     background-color: #282828;
 }
 
@@ -58,7 +57,7 @@ main{
 
 
 header{
-    height: 70px;
+    height: 80px;
     background-color: #080B12;
     flex-shrink: 0;
     position: sticky;
