@@ -140,3 +140,22 @@ header{
 	height: 100%;
 	width: auto;
 }
+
+
+
+/* section created-for */
+
+.created-for > h3 {
+    text-align: left;
+}
+
+
+/* section popular-artists */
+
+.popular-artists > h3 {
+    text-align: left;
+}
+
+.card-img-circle {
+    border-radius: 50%;
+}
