@@ -43,16 +43,16 @@ h3{
 
 h4{
     color:#FFFFFF;
-    margin: 5px;
     font-size: 10px;
     text-align: center;
+ 
 }
 
 h5{
     color:#75787C;
-    margin: 5px;
     font-size: 5px;
     text-align: center;
+    
 }
 
 
@@ -126,6 +126,7 @@ header{
     padding:10px 20px;  
     border-radius: 20px;
     border: 1px solid #EEEEEE;
+    margin-right: 10px;
 }
 
 /* Main*/
@@ -253,6 +254,10 @@ header{
     align-items: center;
 }
 
+.middle-icon-padding{
+    padding: 5px 8px;
+}
+
 .time-line{
     display: flex;
     justify-content: center;
@@ -270,6 +275,7 @@ header{
     height: 2px;
     border-radius: 4px;
     background-color: #5A5A5A;
+    margin: 0 5px;
 }
 
 
@@ -288,4 +294,26 @@ header{
 
 .box-right{
     width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.right-icon-padding{
+    padding: 3px;
+}
+
+.right-line{
+    min-width:50px;
+    height: 2px;
+    border-radius: 4px;
+    background-color: #5A5A5A;
+}
+
+.filled-right-line{
+    width:25%;
+    height: 2px;
+    border-radius: 4px;
+    background-color: #C1C1C1;
 }
