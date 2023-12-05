@@ -1,3 +1,19 @@
+/* *******spotify-xs  500px ***** */
+@media screen and (min-width:500px) {
+    .top-sidebar-all{
+        display: none;
+    }
+    .bottom-sidebar-all{
+        display: none;
+    }
+
+    .footer-title-all{
+        display: none;
+    }
+}
+
+
+
 /* *******spotify-s  575px ***** */
 
 @media screen and (min-width:575px) {
@@ -14,8 +30,18 @@
         display: none;
     }
 
+    .top-sidebar-all{
+        display: block;
+    }
+    .bottom-sidebar-all{
+        display: block;
+    }
 
-    
-
+    .footer-title{
+        display: none;
+    }
+    .footer-title-all{
+        display: inline;
+    }
 
 }
