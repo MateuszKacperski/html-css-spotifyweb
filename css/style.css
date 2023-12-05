@@ -41,6 +41,22 @@ h3{
     text-align: center;
 }
 
+h4{
+    color:#FFFFFF;
+    margin: 5px;
+    font-size: 10px;
+    text-align: center;
+}
+
+h5{
+    color:#75787C;
+    margin: 5px;
+    font-size: 5px;
+    text-align: center;
+}
+
+
+
 
 
 /* Utils */ 
@@ -196,3 +212,48 @@ header{
     background-color: #808080;
     border-radius: 50%;
    }
+
+
+   /* Footer */
+
+
+   footer{
+    display: flex;
+   }
+
+   /* left side */
+
+    .box-left{
+    width:30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+   .box-img{
+    width: 50px;
+    height: 50px;
+   }
+
+   .icon-cont{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+   }
+
+
+
+/* middle side */
+
+.box-middle{
+    width: 40%;
+}
+
+
+
+
+/* right side */
+
+.box-right{
+    width: 30%;
+}
