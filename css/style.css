@@ -184,7 +184,9 @@ header{
 
 /* Sidebar */
 
-.top-sidebar {
+
+/* mobile vesion */
+.top-sidebar-mobile {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -193,26 +195,92 @@ header{
 
 
 .logo-img {
- width: 60%;
- height: 60%;
- padding: 5px;
-}
+    width: 60%;
+    height: 60%;
+    padding: 5px;
+   }
+   
+   
+   .bottom-sidebar-mobile {
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       align-items: center;
+   }
 
-
-.bottom-sidebar {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo-img-bg {
+   .logo-img-bg {
     width: 50%;
     height: 50%;
     padding: 5px;
     background-color: #808080;
     border-radius: 50%;
    }
+
+ /* Other version */ 
+
+ .top-logo-sidebar{
+    width: 50%;
+    height: 15%;
+    padding: 4px;
+    margin-left: 5px;
+ }
+
+
+ .logo-img-all{
+    width: 20%;
+    height: 10%;
+    padding: 5px;
+ }
+
+ .sidebar-title {
+    color:#FFFFFF;
+    margin: 5px;
+    font-size: 15px;
+    
+ }
+
+ .sidebar-text {
+    color:#75787C;
+    margin: 5px;
+    font-size: 10px;
+    
+ }
+ .add-playlist{
+    height: 10%;
+    display: flex;
+ }
+
+ .bottom-sidebar-all {
+    display: flex;
+    flex-direction: column;
+}
+
+.download{
+    height: 10%;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.img-download{
+    width: 25%;
+    height: 10%;
+    
+ }
+
+
+ .sidebar-accout{
+    height: 10%;
+    display: flex;
+    margin-top:20px;
+ }
+.logo-img-bg-all {
+   width: 50px;
+   height: 50px;
+    padding:5px
+
+   }
+
+
 
 
    /* Footer */
@@ -236,13 +304,12 @@ header{
     height: 50px;
    }
 
+
    .icon-cont{
     display: flex;
     flex-direction: column;
     margin-left: 5px;
    }
-
-
 
 /* middle side */
 

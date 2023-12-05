@@ -1,0 +1,19 @@
+/* *******spotify-s  575px ***** */
+
+@media screen and (min-width:575px) {
+    
+    .sidebar{
+        flex-basis: 200px;
+    }
+
+    .top-sidebar-mobile{
+        display: none;
+    }
+
+    .bottom-sidebar-mobile{
+        display: none;
+    }
+
+
+
+}
