@@ -45,3 +45,32 @@
     }
 
 }
+
+/* *******spotify-md  768px ***** */
+
+@media screen and (min-width:768px) {
+    .col {
+       
+        flex-basis: calc(100% / 4);
+    }
+
+    .box-left{
+        width:30%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        }
+
+        .icon-cont{
+            flex-direction: row;
+            margin-left: 50px;
+        }
+
+        .icon-heart{
+            padding: 0 5px;
+        }
+
+        .icon-folder{
+            padding: 0 5px;
+        }
+}
