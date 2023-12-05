@@ -55,10 +55,7 @@
     }
 
     .box-left{
-        width:30%;
-        display: flex;
         justify-content: flex-start;
-        align-items: center;
         }
 
         .icon-cont{
@@ -73,4 +70,31 @@
         .icon-folder{
             padding: 0 5px;
         }
+}
+
+
+/* *******spotify-lg  992px ***** */
+
+@media screen and (min-width:992px) {
+
+    .col {
+       
+        flex-basis: calc(100% / 6);
+    }
+
+    .box-right{
+        justify-content: flex-end; 
+        }
+
+    .right-line{
+        margin-right: 20px;
+    }
+
+    .navbar{
+        justify-content: center;
+    }
+
+    .navbar li{
+        margin: 0 15px;
+    }
 }
