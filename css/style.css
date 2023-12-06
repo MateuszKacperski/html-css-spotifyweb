@@ -143,6 +143,15 @@ header{
    
 }
 
+.underline::after{
+    content: '';
+    display: block;
+    width: 30%;
+    height: 2px;
+    background-color: #ADFF2F;
+    margin: 3px auto;
+}
+
 
 /* section recenty played */
 
